@@ -1,8 +1,11 @@
 ## These functions cache the inverse of a matix
-## 
+
 
 ## This function takes a matrix as input
-## and returns list of functions to cache inverse
+## sets x equal to the input matrix, sets inverse
+## equal to null, and returns list of functions used to
+## get and set the matrix and its inverse
+
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
