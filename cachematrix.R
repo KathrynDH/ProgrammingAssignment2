@@ -1,6 +1,5 @@
 ## These functions cache the inverse of a matix
 
-
 ## This function takes a matrix as input
 ## sets x equal to the input matrix, sets inverse
 ## equal to null, and returns list of functions used to
